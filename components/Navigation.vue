@@ -24,7 +24,7 @@
       leave-to-class="flex-grow-0 h-0 overflow-y-hidden opacity-25"
     >
       <div v-if="isOpen" class="flex-auto bg-purple-700">
-        <div class="px-4 py-3 bg-purple-600 text-purple-100 border-b border-purple-800">
+        <div class="px-4 py-3 bg-purple-500 text-purple-100 border-b border-purple-800">
           <div class="flex items-center">
             <img class="w-16 h-16 rounded-full object-cover shadow border-2 border-purple-200" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600" alt="Esther de Zwart">
             <div class="ml-3">
