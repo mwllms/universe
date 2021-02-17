@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './components/**/*.{vue,js}',
@@ -10,7 +12,13 @@ module.exports = {
   theme: {
     fontFamily: {
       'display': ['Ubuntu', 'sans-serif'],
-      'body': ['Open Sans', 'sans-serif']
+      'body': ['Work Sans', 'sans-serif']
+    },
+    colors: {
+      white: colors.white,
+      black: colors.black,
+      gray: colors.blueGray,
+      purple: colors.purple
     },
     extend: {
       animation: {
