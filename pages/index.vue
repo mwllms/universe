@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100 antialiased">
+  <div class="antialiased">
     <Navigation />
   </div>
 </template>
